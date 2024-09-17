@@ -1,0 +1,11 @@
+
+palavra = input('Digite a palavra para verificar: ')
+
+chec = palavra.upper()
+
+quant = chec.count('A') 
+
+if quant > 0:
+    print(f'A letra "a" aparece {quant} vez(es) na string.')
+else:
+    print('A letra "a" não aparece na string.')
